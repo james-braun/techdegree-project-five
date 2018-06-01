@@ -1,0 +1,7 @@
+@if variable-exists(font-url--google) {
+    @import url($font-url--google);
+}
+
+@function em($target, $context: $base__fontsize) {
+    @return ($target / $context) * 1em;
+}

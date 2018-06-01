@@ -1,0 +1,22 @@
+$font-url-google: "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+$font-family--primary: "Lato", sans-serif;
+
+$white : #fff;
+$black : #0b0b0b;
+$fountain-blue : #52bab3
+$emerald : #5ece7f;
+$sunglo : #e67448;
+$coral : #ff784f;
+$purple-magesty : #9279c3;
+$scooter : #39add1;
+
+$base__font--size: 16px;
+$base__line: 24px;
+
+$ui_colors: (
+    default : $fountain-blue,
+    success : $emerald,
+    error   : $sunglo,
+    warning : $coral,
+    info    : $purple-magisty,
+);

@@ -1,22 +1,39 @@
-$font-url-google: "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
-$font-family--primary: "Lato", sans-serif;
+$font-url--google: "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+$font-family--primary: "Lato", 'Helvetica Neue', Arial, sans-serif;
+$font-family--secondary: 'Helvetica Neue', Arial, sans-serif;
 
-$white : #fff;
-$black : #0b0b0b;
-$fountain-blue : #52bab3
-$emerald : #5ece7f;
-$sunglo : #e67448;
-$coral : #ff784f;
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// descriptive color values
+$white          : #fff;
+$black          : #0b0b0b;
+$grey           : #797e83;
+$fountain-blue  : #52bab3;
+$emerald        : #5ece7f;
+$sunglo         : #e67448;
+$coral          : #ff784f;
 $purple-magesty : #9279c3;
-$scooter : #39add1;
+$scooter        : #39add1;
 
-$base__font--size: 16px;
+// text
+$base__font-size: 16px;
 $base__line: 24px;
 
-$ui_colors: (
+$ui-colors: (
     default : $fountain-blue,
     success : $emerald,
     error   : $sunglo,
     warning : $coral,
     info    : $purple-magisty,
 );
+
+// Asset paths
+
+$path-img   : '../images';
+
+// media quiery breakpoints
+$brk-narrow : '(min-width: 768px)';

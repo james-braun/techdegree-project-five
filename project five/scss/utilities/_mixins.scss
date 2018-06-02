@@ -1,4 +1,13 @@
+// text mixin
+// Sets the size, line height, font weight, and color of text.
+@mixin text($size, $l-height: null, $weight: null, $color: null) {
+    font-size: $size;
+    line-height: $l-height;
+    font-weight: $weight;
+    color: $color;
+}
 
+// creates .btn--success etc.
 @mixin bg-colors($map) {
     @each $theme, $color in $map {
         &--#{$theme} {
@@ -6,3 +15,18 @@
         }
     }
 }
+
+// bem element creater
+@mixin e($element) {
+    &__#{$element} {
+        @content;
+    }
+}
+
+// bem modifier creator
+@mixin m($modifier) {
+    &--#{$modifier} {
+        @content;
+    }
+}
+

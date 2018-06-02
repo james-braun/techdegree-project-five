@@ -1,7 +1,11 @@
+// import Google fonts URL if defined
 @if variable-exists(font-url--google) {
     @import url($font-url--google);
 }
 
-@function em($target, $context: $base__fontsize) {
+// calculate em values from pixel values.
+// see modular css and Sass -- pixel to em function
+@function em($target, $context: $base__font-size) {
     @return ($target / $context) * 1em;
 }
+

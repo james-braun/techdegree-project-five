@@ -1,18 +1,21 @@
 %btn {
-    padding: 15px 40px;
+    padding: 15px 0;
     border: 0;
     color: white;
     font-size: em(14px);
     font-weight: $font-weight--medium;
-    display: block;
     text-transform: uppercase;
     border-radius: $br--default;
+    margin-bottom: em(20px);
+    width: em(370px);
 }
 
 %grid__col {
     padding: 15px 20px;
     border: 0;
     border-radius: $br--default;
+    margin-bottom: em(4px);
+    width: em(370px);
 }
 
 %srt {

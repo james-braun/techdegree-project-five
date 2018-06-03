@@ -12,7 +12,6 @@
     @each $theme, $color in $map {
         &--#{$theme} {
             background-color: $color;
-            width: em(370px);
             @content;
         }
     }

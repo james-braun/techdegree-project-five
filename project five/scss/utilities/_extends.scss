@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-%grid__col {
+%grid-col {
     padding: 15px 20px;
     border: 0;
     border-radius: $br--default;
@@ -33,14 +33,26 @@
 
 }
 
-%images {
-
+%center-images {
+    display: block;
+    margin: 0 auto;   
 }
 
-%headlines {
+%image-frame {
+    padding: em(8px);
+    border: 1px solid $grey;
+    width: 95%;
+}
+
+
+%hdln-prim {
+    @include text(em(32px), $color: $emerald);
+}
+
+%hdln-sec {
 
 }
 
 %nav {
-
+ 
 }

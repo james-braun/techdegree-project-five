@@ -1,5 +1,5 @@
 .headline--primary {
-    @include text(em(32px), $color: $emerald);
+    @extend %hdln-prim;
 }
 
 .headline--secondary {

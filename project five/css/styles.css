@@ -207,6 +207,21 @@ th {
   position: absolute;
   width: 1px; }
 
+.img--logo,
+.img--frame,
+.img--avatar {
+  display: block;
+  margin: 0 auto; }
+
+.img--frame {
+  padding: 0.5em;
+  border: 1px solid #797e83;
+  width: 95%; }
+
+.headline--primary {
+  font-size: 2em;
+  color: #5ece7f; }
+
 .container {
   width: 30em;
   display: grid;
@@ -217,10 +232,6 @@ th {
 .grid__row {
   display: grid;
   margin: 0 auto; }
-
-.headline--primary {
-  font-size: 2em;
-  color: #5ece7f; }
 
 .headline--secondary {
   font-size: 1em;

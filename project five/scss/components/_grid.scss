@@ -1,6 +1,6 @@
 .grid__col {
     @include bg-colors($ui-colors2) {
-        @extend %grid__col;
+        @extend %grid-col;
     };
 }
 

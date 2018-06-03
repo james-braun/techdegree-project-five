@@ -1,0 +1,8 @@
+.img--logo,
+.img--frame,
+.img--avatar {
+    @extend %center-images;
+}
+.img--frame {
+    @extend %image-frame;
+}

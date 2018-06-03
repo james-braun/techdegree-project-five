@@ -1,0 +1,12 @@
+.container {
+    max-width: em(480px);
+    display: grid;
+    margin: em(50px) auto;
+    grid-template-columns: em(370px);
+    grid-row-gap: em(20px);
+}
+.grid__row {
+    display: grid;
+    margin: 0 auto;
+    //grid-template-columns: em(370px);
+}

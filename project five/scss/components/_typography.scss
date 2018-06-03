@@ -1,0 +1,7 @@
+.headline--primary {
+    @include text(em(32px), $color: $emerald);
+}
+
+.headline--secondary {
+    @include text(em(16px), $weight: $font-weight--light, $color: $grey);
+}

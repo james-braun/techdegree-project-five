@@ -1,0 +1,43 @@
+%btn {
+    padding: 15px 40px;
+    border: 0;
+    color: white;
+    font-size: em(14px);
+    font-weight: $font-weight--medium;
+    display: block;
+    text-transform: uppercase;
+    border-radius: $br--default;
+}
+
+%grid__col {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: $br--default;
+}
+
+%srt {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+%links{
+
+}
+
+%images {
+
+}
+
+%headlines {
+
+}
+
+%nav {
+
+}

@@ -1,3 +1,5 @@
 .btn {
-    @include bg-colors($ui-colors);
+    @include bg-colors($ui-colors) {
+        @extend %btn;
+    };
 }

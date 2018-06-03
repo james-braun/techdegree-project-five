@@ -28,7 +28,17 @@ $ui-colors: (
     success : $emerald,
     error   : $sunglo,
     warning : $coral,
-    info    : $purple-magisty,
+    info    : $purple-magesty,
+);
+
+$ui-colors2: (
+    6 : $fountain-blue,
+   12 : $emerald,
+    7 : $sunglo,
+    8 : $coral,
+    3 : $purple-magesty,
+    4 : $scooter,
+    5 : $grey,
 );
 
 // Asset paths
@@ -37,3 +47,7 @@ $path-img   : '../images';
 
 // media quiery breakpoints
 $brk-narrow : '(min-width: 768px)';
+
+// border Radius
+
+$br--default: .4em

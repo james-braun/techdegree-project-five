@@ -5,10 +5,11 @@
         }
     }
     @include e(input) {
-        width: 100%;
+        width: 310px;
         font-size: em(18px);
         padding: em(15px, 18px);
         margin-bottom: em(20px, 18px);
+        margin-left: em(12px, 18px);
         border: none;
         border-bottom: 6px solid $emerald;
     }

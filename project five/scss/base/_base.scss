@@ -1,8 +1,8 @@
 .container {
-    max-width: em(480px);
+    width: em(480px);
     display: grid;
     margin: em(50px) auto;
-    grid-template-columns: em(370px);
+    grid-template-columns: em(480px);
     grid-row-gap: em(20px);
 }
 .grid__row {

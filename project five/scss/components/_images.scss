@@ -1,7 +1,5 @@
-.img--logo,
-.img--frame,
-.img--avatar {
-    @extend %center-images;
+.img {
+    @include ctr-images($photos);
 }
 .img--frame {
     @extend %image-frame;

@@ -17,6 +17,15 @@
     }
 }
 
+// centers images on the page
+@mixin ctr-images($photos) {
+    @each $img in $photos {
+        &--#{$img} {
+            @extend %center-images;
+        }
+    }
+}
+
 // bem element creater
 @mixin e($element) {
     &__#{$element} {

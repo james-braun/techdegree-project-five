@@ -5,7 +5,7 @@
         }
     }
     @include e(input) {
-        width: 310px;
+        width: em(320px);
         font-size: em(18px);
         padding: em(15px, 18px);
         margin-bottom: em(20px, 18px);

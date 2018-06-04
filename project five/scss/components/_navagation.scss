@@ -1,0 +1,7 @@
+.nav {
+    @extend %nav;
+}
+
+.nav__item {
+    @extend %nav-item;
+}

@@ -1,12 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 .container {
     width: em(480px);
     display: grid;
     margin: em(50px) auto;
     grid-template-columns: em(480px);
     grid-row-gap: em(20px);
+    > .headline--secondary {
+        margin-left: em(50px);
+    }
 }
 .grid__row {
     display: grid;
     margin: 0 auto;
-    //grid-template-columns: em(370px);
 }

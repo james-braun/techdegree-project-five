@@ -3,5 +3,20 @@
 }
 
 .headline--secondary {
-    @include text(em(16px), $weight: $font-weight--light, $color: $grey);
+    @extend %hdln-sec;
+}
+
+p {
+    @include text(em(16px), 1.5, $font-weight--medium, $grey);
+}
+
+.link {
+    @extend %link;
+}
+
+.blockquote {
+    @include text(em(20px), 1.0, $font-weight--medium, $grey);
+    padding: em(4px) em(15px);
+    border-left: em(8px) solid $emerald;
+    font-style: italic;
 }

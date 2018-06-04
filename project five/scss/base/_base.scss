@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 .container {
     width: em(480px);
     display: grid;
@@ -11,6 +12,7 @@
         margin-left: em(50px);
     }
 }
+ 
 .grid__row {
     display: grid;
     margin: 0 auto;

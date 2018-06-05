@@ -261,7 +261,7 @@ th {
   width: 30em;
   display: grid;
   margin: 3.125em auto;
-  grid-template-columns: 30em;
+  grid-template-columns: 23.125em;
   grid-row-gap: 1.25em; }
   .container > .headline--secondary {
     margin-left: 3.125em; }
@@ -269,6 +269,14 @@ th {
 .grid__row {
   display: grid;
   margin: 0 auto; }
+  @media (min-width: 1400px) {
+    .grid__row {
+      display: flex; } }
+
+@media (min-width: 1400px) {
+  .nav {
+    display: flex;
+    flex-direction: row; } }
 
 p {
   font-size: 1em;

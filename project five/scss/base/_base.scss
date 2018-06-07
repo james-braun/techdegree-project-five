@@ -11,9 +11,17 @@
     > .headline--secondary {
         margin-left: em(50px);
     }
+    @media #{$brk-narrow} {
+        width: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
  
 .grid__row {
     display: grid;
     margin: 0 auto;
+    @media #{$brk-narrow} {
+        display: flex; 
+    }
 }

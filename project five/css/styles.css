@@ -261,10 +261,15 @@ th {
   width: 30em;
   display: grid;
   margin: 3.125em auto;
-  grid-template-columns: 23.125em;
+  grid-template-columns: 30em;
   grid-row-gap: 1.25em; }
   .container > .headline--secondary {
     margin-left: 3.125em; }
+  @media (min-width: 1400px) {
+    .container {
+      width: 1400px;
+      display: flex;
+      flex-wrap: wrap; } }
 
 .grid__row {
   display: grid;
@@ -277,6 +282,10 @@ th {
   .nav {
     display: flex;
     flex-direction: row; } }
+
+@media (min-width: 1400px) {
+  .nav__item {
+    margin-right: 6.25em; } }
 
 p {
   font-size: 1em;
@@ -302,6 +311,9 @@ p {
   border: none;
   border-bottom: 6px solid #5ece7f; }
 
+@media (min-width: 1400px) {
+  .img--logo {
+    margin-left: 0; } }
 .btn--default {
   background-color: #52bab3; }
 .btn--success {

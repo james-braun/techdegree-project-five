@@ -1,7 +1,14 @@
 .nav {
     @extend %nav;
+    @media #{$brk-narrow} {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .nav__item {
     @extend %nav-item;
+    @media #{$brk-narrow} {
+        margin-right: em(100px);
+    }
 }

@@ -4,3 +4,9 @@
 .img--frame {
     @extend %image-frame;
 }
+
+@media #{$brk-narrow} {
+    .img--logo {
+        margin-left: 0;
+    }
+}

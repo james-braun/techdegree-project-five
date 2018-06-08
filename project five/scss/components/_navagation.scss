@@ -3,12 +3,15 @@
     @media #{$brk-narrow} {
         display: flex;
         flex-direction: row;
+        margin-left: 100px;
+        padding-right: 0;
     }
 }
 
 .nav__item {
     @extend %nav-item;
     @media #{$brk-narrow} {
-        margin-right: em(100px);
+        margin-right: em(50px);
+        width: em(100px);
     }
 }

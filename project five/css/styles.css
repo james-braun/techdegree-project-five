@@ -261,7 +261,7 @@ th {
   width: 30em;
   display: grid;
   margin: 3.125em auto;
-  grid-template-columns: 30em;
+  grid-template-columns: 100%;
   grid-row-gap: 1.25em; }
   .container > .headline--secondary {
     margin-left: 3.125em; }

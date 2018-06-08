@@ -6,7 +6,7 @@
     width: em(480px);
     display: grid;
     margin: em(50px) auto;
-    grid-template-columns: em(480px);
+    grid-template-columns: 100%;
     grid-row-gap: em(20px);
     > .headline--secondary {
         margin-left: em(50px);

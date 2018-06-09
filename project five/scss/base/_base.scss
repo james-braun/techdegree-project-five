@@ -14,7 +14,7 @@
     @media #{$brk-narrow} {
         width: em(1400px);
         display: block;
-
+        
     }
 
 }
@@ -22,23 +22,5 @@
 .grid__row {
     display: grid;
     margin: 0 auto;
-    @media #{$brk-narrow} {
-        width: em(1400px);
-        &:nth-of-type(1) {
-            grid-template-columns:  25px 475px 800px;
-            .grid__col--3 {
-                grid-column: 2 / 3;
-            }
-        } 
-        &:nth-of-type(2) {
-            grid-template-columns: 200px 1200px 200px;
-            .grid__col--12 {
-                grid-column: 2 / 3;
-            }
-            p {
-                width: em(970px);
-            }
-
-        }
-    }
+    @include mq();
 }

@@ -11,12 +11,7 @@
     > .headline--secondary {
         margin-left: em(50px);
     }
-    @media #{$brk-narrow} {
-        width: em(1400px);
-        display: block;
-        
-    }
-
+    @include mq4();
 }
  
 .grid__row {
